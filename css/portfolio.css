@@ -1,0 +1,33 @@
+h4 {
+    margin-top: 10px;
+    position: relative;
+}
+
+h4::after {
+    content: '';
+    width: 50px;
+    height: 4px;
+    border-radius: 3px;
+    background-color: black;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.gallery img{
+    width: 200px;
+    height: 200px;
+}
+.portfolio_text{
+    font-size: 18px;
+    text-align: justify;
+}
+body{
+    font-family: 'Times New Roman';
+}
