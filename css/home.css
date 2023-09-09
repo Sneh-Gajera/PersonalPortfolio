@@ -62,6 +62,18 @@ hr {
     align-items: center;
 }
 
+/* language */
+.language{
+    padding-left: 15px;
+}
+.language h4{
+    text-align: center;
+}
+.language p{
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
 /* show */
 
 .show {
@@ -72,11 +84,12 @@ hr {
 }
 
 .navigation {
+    padding: 10px;
     background-color: lavender;
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .menu ul {
