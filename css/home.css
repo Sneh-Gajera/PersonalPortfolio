@@ -63,9 +63,7 @@ hr {
 }
 
 /* language */
-.language{
-    /* padding-left: 15px; */
-}
+
 .language h4{
     text-align: center;
 }
@@ -73,7 +71,6 @@ hr {
     padding-left: 15px;
     margin-bottom: 0;
     font-size: 18px;
-    /* font-weight: bold; */
 }
 /* show */
 
